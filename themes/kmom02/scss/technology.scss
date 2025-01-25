@@ -1,0 +1,38 @@
+.landing-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.96rem;
+  margin-bottom: 1.96rem;
+}
+
+.landing-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+  text-align: center;
+}
+
+.technology {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .technology {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .box {
+    grid-column: span 1 !important;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .landing-page h1 {
+    grid-column: span 1 !important;
+  }
+}
