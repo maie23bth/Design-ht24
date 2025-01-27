@@ -1,0 +1,7 @@
+$main-background-color: rgb(2, 0, 13);
+$main-font-color: #001f5c;
+$main-img-filter: brightness(50%);
+
+.dark-mode .main img {
+  filter: brightness(50%) !important; 
+}

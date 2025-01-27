@@ -9,4 +9,10 @@ Social:
     - title: Kursens Youtube-kanal.
       url: https://www.youtube.com/watch?v=MvkloL7F-go&list=PLKtP9l5q3ce-1QtWWcecLj52Zeo6RrNq-
       icon: fab fa-youtube
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

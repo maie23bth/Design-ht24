@@ -4,18 +4,19 @@
   padding: 2rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #c08;
+  color: $main-font-color;
+  background-color: rgb(1, 0, 15);
 }
-
+  
 .site-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
-
-
+  
+  
+  
 .nav a {
   font-size: 3rem;
 }
